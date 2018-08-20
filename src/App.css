@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+
+.News-box {
+    text-align: center;
+    alignment: center;
+  border-style:outset;
+  border-color: cornflowerblue;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;

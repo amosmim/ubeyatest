@@ -7,8 +7,7 @@ export class News extends Component {
 
     render () {
         return (
-            <div>
-
+            <div className='News-box'>
                 <h3>Title</h3>
                 <p>{this.props.title}</p>
                 <h3>description</h3>
@@ -19,7 +18,6 @@ export class News extends Component {
                 <p>{this.props.link}</p>
                 <h3>date</h3>
                 <p>{this.props.date}</p>
-
             </div>
 
         );
